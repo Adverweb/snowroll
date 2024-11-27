@@ -1,0 +1,59 @@
+.customize-control-lebagol-button-switch .lebagol-switch {
+    display: none; }
+.customize-control-lebagol-button-switch .lebagol-switch, .customize-control-lebagol-button-switch .lebagol-switch:after, .customize-control-lebagol-button-switch .lebagol-switch:before,
+.customize-control-lebagol-button-switch .lebagol-switch *,
+.customize-control-lebagol-button-switch .lebagol-switch *:after,
+.customize-control-lebagol-button-switch .lebagol-switch *:before,
+.customize-control-lebagol-button-switch .lebagol-switch + .lebagol-switch-btn {
+    box-sizing: border-box; }
+.customize-control-lebagol-button-switch .lebagol-switch::selection, .customize-control-lebagol-button-switch .lebagol-switch:after::selection, .customize-control-lebagol-button-switch .lebagol-switch:before::selection,
+.customize-control-lebagol-button-switch .lebagol-switch *::selection,
+.customize-control-lebagol-button-switch .lebagol-switch *:after::selection,
+.customize-control-lebagol-button-switch .lebagol-switch *:before::selection,
+.customize-control-lebagol-button-switch .lebagol-switch + .lebagol-switch-btn::selection {
+    background: none; }
+.customize-control-lebagol-button-switch .lebagol-switch + .lebagol-switch-btn {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    user-select: none; }
+.customize-control-lebagol-button-switch .lebagol-switch + .lebagol-switch-btn:after, .customize-control-lebagol-button-switch .lebagol-switch + .lebagol-switch-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%; }
+.customize-control-lebagol-button-switch .lebagol-switch + .lebagol-switch-btn:after {
+    left: 0; }
+.customize-control-lebagol-button-switch .lebagol-switch + .lebagol-switch-btn:before {
+    display: none; }
+.customize-control-lebagol-button-switch .lebagol-switch:checked + .lebagol-switch-btn:after {
+    left: 50%; }
+
+.customize-control-lebagol-button-switch .lebagol-switch-ios + .lebagol-switch-btn {
+    background: #ddd;
+    border-radius: 2em;
+    padding: 2px;
+    transition: all .4s ease;
+    border: 1px solid #e8eae9; }
+.customize-control-lebagol-button-switch .lebagol-switch-ios + .lebagol-switch-btn:after {
+    border-radius: 2em;
+    background: #fbfbfb;
+    transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08); }
+.customize-control-lebagol-button-switch .lebagol-switch-ios + .lebagol-switch-btn:hover:after {
+    will-change: padding; }
+.customize-control-lebagol-button-switch .lebagol-switch-ios + .lebagol-switch-btn:active {
+    box-shadow: inset 0 0 0 2em #e8eae9; }
+.customize-control-lebagol-button-switch .lebagol-switch-ios + .lebagol-switch-btn:active:after {
+    padding-right: .8em; }
+
+.customize-control-lebagol-button-switch .lebagol-switch-ios:checked + .lebagol-switch-btn {
+    background: #0085ba; }
+.customize-control-lebagol-button-switch .lebagol-switch-ios:checked + .lebagol-switch-btn:active {
+    box-shadow: none; }
+.customize-control-lebagol-button-switch .lebagol-switch-ios:checked + .lebagol-switch-btn:active:after {
+    margin-left: -.8em; }

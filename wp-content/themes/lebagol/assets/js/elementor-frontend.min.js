@@ -1,0 +1,1 @@
+!function(){"use strict";jQuery(window).on("elementor/frontend/init",function(){elementorFrontend.elements.$window.on("elementor/nested-tabs/activate",(e,n)=>{for(const t of n.querySelectorAll(`.${elementorFrontend.config.swiperClass}`)){if(!t.swiper)return;t.swiper=void 0}})})}();
